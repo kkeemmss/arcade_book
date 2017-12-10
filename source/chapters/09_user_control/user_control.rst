@@ -111,7 +111,9 @@ There is! Using classes!
 Here is a more complex example, but all the logic for the ball has been moved
 into a new ``Ball`` class.
 
-.. literalinclude:: ball_class_example.py
+.. literalinclude:: ball_class_example.py 
+# you define update() methot in Ball clas, but then call animate() un windows class, rezulting in ball not moving.
+# the same problen is in list example.
     :caption: ball_class_example.py
     :language: python
     :linenos:
